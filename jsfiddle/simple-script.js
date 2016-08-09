@@ -1,3 +1,3 @@
-$("td.title span").on('click', function () {
-  $( "td.title span" ).css('color', 'salmon');
+$("span.title").on('click', function () {
+  $( "span.title" ).css('color', 'salmon');
 }
