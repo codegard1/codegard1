@@ -1,3 +1,4 @@
-$("span.title").on('click', function () {
-  $( "span.title" ).css('color', 'salmon');
+var s = $('span.title');
+s.on('click', function () {
+  s.css('color','salmon');
 });
