@@ -38,6 +38,8 @@ tr#header td {
   min-width: 125px;
   padding: 0.75em 1em 0.5em 1em;
   background-color: ghostwhite;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 tr.row td {
