@@ -37,8 +37,6 @@ div.content table {
 tr#header td {
   min-width: 125px;
   padding: 0.75em 1em 0.5em 1em;
-  font-size: 24px;
-  font-weight: bold;
   background-color: ghostwhite;
 }
 
