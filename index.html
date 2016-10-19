@@ -28,9 +28,12 @@
           </span>
       </div>
       <div class="ms-Grid-col ms-u-hiddenSm ms-u-md4 ms-u-lg3 ms-u-xl2 header">
-        <span class="ms-font-m ms-fontColor-blueMid" style="float:right;">online internet presence website</span>
+        <span class="ms-font-m ms-fontColor-blueMid" style="float:right;">
+          online internet presence website
+        </span>
       </div>
     </div>
+
 
     <div class="ms-Grid-row ms-bgColor-teal">
       <!-- spacer -->
@@ -121,5 +124,11 @@
 
 </body>
 <script src="r/simple-script.js"></script>
-
+<script>
+  $(document).ready(function() {
+    if ($.fn.Dropdown) {
+      $('.ms-Dropdown').Dropdown();
+    }
+  });
+</script>
 </html>

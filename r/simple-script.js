@@ -3,4 +3,5 @@
   s.on('click', function () {
     s.css('color', 'salmon');
   });
+
 })($);
