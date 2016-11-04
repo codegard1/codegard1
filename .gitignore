@@ -2,6 +2,7 @@
 .babelrc
 package.json
 node_modules
+*.log
 
 # OS generated files #
 ######################
